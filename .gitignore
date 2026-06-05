@@ -1,0 +1,27 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de PyCharm
+.idea/
+
+# Distribución y empaquetado
+build/
+dist/
+*.egg-info/
+
+# Pruebas
+.pytest_cache/
+
+# Cobertura
+.coverage
+htmlcov/
+
+# Variables de entorno
+.env
