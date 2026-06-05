@@ -1,6 +1,7 @@
-# =============================================================
-# Archivo para noobs de python — hecho por nono
-# =============================================================
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║            Python para noobs #1 — hecho por nono             ║
+# ╚══════════════════════════════════════════════════════════════╝
 # Detalles que a uno no le dicen antes de empezar, pero son
 # buenos de saber para evitar confusiones en el futuro.
 #
@@ -48,17 +49,46 @@
 # Que a diferencia de otros lenguajes que suan llaves {} para definir los bloques de codigo python usa indentacion.
 # Personalmente, eso me parese una cagada, pero es lo que hay.
 #
-# Ejemplo:
+# Ejemplo bien indentado:
 #
 #     def nombre_de_funcion():
 #         print("Hola")
 #
-# esta segunda está mal indentada y va a dar error porque va a detectar que hay una funcion vacia, aquí tecnicamente print
-# no está dentro de la funcion.
 #
+# Ejemplo mal indentado:
 #     def nombre_de_funcion2():
 #     print("Hola")
+#
+# esta segunda está mal indentada y va a dar error porque va a detectar que hay una funcion vacia, aquí tecnicamente print
+# no está dentro de la funcion.
 #
 # =============================================================
 # Por último el standard para nombrar cosas en python es el Snake_case o sea asi:
 # mi_variable en vez de miVariable.
+# Ahora sí podemos iniciar con la primera clase.
+
+
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║                      TIPOS DE DATOS                          ║
+# ╚══════════════════════════════════════════════════════════════╝
+
+entero = 1            # int — Numeros enteros, incluye negativos.
+entero_negativo = -1
+decimal = 1.1         # float — Numeros decimales. Para mayor exactitud matematica.
+texto = "Hello World" # str — Cadena de letras, para texto.
+booleano = True       # bool — Verdadero o falso, se llama booleano por la matematica booleana (1 y 0)
+nulo = None           # None — nulo tal cual, se usa mucho para validar condiciones e.g: si x no es nulo entonces....algo pasa.
+
+# =============================================================
+# Como saber el tipo de una variable? con la función type()
+# python te devuelve el tipo de cualquier variable o valor.
+#
+#   type(variable) o type("valor")
+#
+# Pista para resolver el ejercicio: Esta función devuelve el tipo, pero no lo imprime.
+#
+# Ejercicio: imprime el tipo de cada variable que definimos arriba.
+# =============================================================
+
+
